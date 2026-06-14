@@ -1,0 +1,11 @@
+# Eclipse
+.project
+.pydevproject
+.settings/
+
+# Python
+__pycache__/
+*.pyc
+
+# Windows
+Thumbs.db

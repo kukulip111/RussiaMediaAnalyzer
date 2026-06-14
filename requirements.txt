@@ -1,0 +1,6 @@
+pandas
+feedparser
+pymorphy3
+nltk
+wordcloud
+matplotlib
