@@ -138,7 +138,7 @@ title_label.pack(pady=20)
 # Кнопка запуска сбора новостей
 btn_news = tk.Button(
     window,
-    text="Собрать новости",
+    text="1. Собрать новости",
     width=30,
     height=2,
     command=collect_news_button
@@ -149,7 +149,7 @@ btn_news.pack(pady=5)
 # Кнопка обработки текстов
 btn_process = tk.Button(
     window,
-    text="Обработать тексты",
+    text="2. Обработать тексты",
     width=30,
     height=2,
     command=process_text
@@ -160,7 +160,7 @@ btn_process.pack(pady=5)
 # Кнопка частотного анализа
 btn_frequency = tk.Button(
     window,
-    text="Частотный анализ",
+    text="3. Частотный анализ",
     width=30,
     height=2,
     command=frequency_analysis
@@ -171,7 +171,7 @@ btn_frequency.pack(pady=5)
 # Кнопка построения облака слов
 btn_cloud = tk.Button(
     window,
-    text="Облако слов",
+    text="4. Облако слов",
     width=30,
     height=2,
     command=build_wordcloud
@@ -182,7 +182,7 @@ btn_cloud.pack(pady=5)
 # Кнопка построения графиков
 btn_plots = tk.Button(
     window,
-    text="Построить графики",
+    text="5. Построить графики",
     width=30,
     height=2,
     command=build_plots
